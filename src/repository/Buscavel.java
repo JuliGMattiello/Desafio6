@@ -3,6 +3,6 @@ package repository;
 public interface Buscavel {
 
     public void findById(Long id);
-    public void finfAll();
+    public void findAll();
 
 }
