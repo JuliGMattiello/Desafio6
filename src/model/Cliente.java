@@ -8,7 +8,6 @@ public class Cliente extends AbstractPessoa{
 
     public Cliente(Long id, String nome, String cpf, String endereco, String telefone, BigDecimal percentualDescontoMaximo) {
         super(id, nome, cpf, endereco, telefone);
-        this.percentualDescontoMaximo = percentualDescontoMaximo;
     }
 
     public BigDecimal getPercentualDescontoMaximo() {

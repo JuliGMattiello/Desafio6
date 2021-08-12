@@ -1,9 +1,9 @@
 package service;
 
-public interface Persistivel {
+    public interface Persistivel {
 
-    public void save();
-    public void uptade();
-    public void remove();
+        public void save();
+        public void update();
+        public void remove();
 
 }

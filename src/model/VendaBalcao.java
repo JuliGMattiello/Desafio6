@@ -69,12 +69,12 @@ public class VendaBalcao implements Faturavel{
 
     @Override
     public Cliente getCliente() {
-        return cliente;
+        return this.cliente;
     }
 
     @Override
     public Vendedor getVendedor() {
-        return vendedor;
+        return this.vendedor;
     }
 
 }

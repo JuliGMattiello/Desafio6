@@ -8,7 +8,7 @@ public class VendedorService implements Persistivel{
     }
 
     @Override
-    public void uptade() {
+    public void update() {
         System.out.println("Atualizando - VendedorService");
     }
 

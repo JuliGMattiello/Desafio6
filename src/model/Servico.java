@@ -30,12 +30,17 @@ public class Servico implements Vendavel{
         this.nome = nome;
     }
 
-    @Override
-    public BigDecimal getValorUnitario() {
-        return valorUnitario;
-    }
-
     public void setValorUnitario(BigDecimal valorUnitario) {
         this.valorUnitario = valorUnitario;
+    }
+
+    @Override
+    public BigDecimal getValorUnitario() {
+        return this.valorUnitario;
+    }
+
+    @Override
+    public String getDescricao() {
+        return this.nome;
     }
 }

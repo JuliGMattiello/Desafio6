@@ -26,11 +26,6 @@ public class Produto implements Vendavel{
         this.id = id;
     }
 
-    @Override
-    public String getDescricao() {
-        return descricao;
-    }
-
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
@@ -51,12 +46,18 @@ public class Produto implements Vendavel{
         this.largura = largura;
     }
 
-    @Override
-    public BigDecimal getValorUnitario() {
-        return valorUnitario;
-    }
-
     public void setValorUnitario(BigDecimal valorUnitario) {
         this.valorUnitario = valorUnitario;
     }
+
+    @Override
+    public BigDecimal getValorUnitario() {
+        return this.valorUnitario;
+    }
+
+    @Override
+    public String getDescricao() {
+        return this.descricao;
+    }
+
 }

@@ -46,10 +46,6 @@ public class Pedido implements Faturavel{
         this.orcamento = orcamento;
     }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
-
     public void setVendedor(Vendedor vendedor) {
         this.vendedor = vendedor;
     }

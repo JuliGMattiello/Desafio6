@@ -6,9 +6,8 @@ public class Vendedor extends AbstractPessoa {
 
     private BigDecimal percentualComissao;
 
-    public Vendedor(Long id, String nome, String cpf, String endereco, String telefone, BigDecimal percentualComissao) {
+    public Vendedor(Long id, String nome, String cpf, String endereco, String telefone) {
         super(id, nome, cpf, endereco, telefone);
-        this.percentualComissao = percentualComissao;
     }
 
     public BigDecimal getPercentualComissao() {

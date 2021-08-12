@@ -1,6 +1,6 @@
 package model;
 
-public class AbstractPessoa {
+public abstract class AbstractPessoa {
 
     private Long id;
     private String nome;

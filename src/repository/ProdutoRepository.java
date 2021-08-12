@@ -8,7 +8,7 @@ public class ProdutoRepository implements Buscavel{
     }
 
     @Override
-    public void finfAll() {
+    public void findAll() {
         System.out.println("Listando - ProdutoRepository");
     }
 }
